@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Inter:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0 145px;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 7px 0;
+    margin: 0 -145px;
+    word-spacing: 3px;
+}
+
+span img {
+    width: 20px;
+}
+
+span a {
+    color: #fff;
+}
+
+.grey-background {
+    background: #f0eeeb;
+    margin: 0 -145px 0 -145px;
+    padding: 0 140px
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#navegacao-1 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+header #navegacao-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 15px;
+}
+
+header #navegacao-2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    align-items: center;
+    gap: 20px;
+}
+
+#login {
+    color: black;
+    text-decoration: none
+}
+
+.button {
+    background: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    padding-bottom: 75px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 110px 0;
+}
+
+article h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color:#ada9a0;
+}
+
+article ul {
+    margin-bottom: 15px;
+}
+
+article ul li {
+    list-style: none;
+    position: relative;
+    line-height: 30px;
+    margin-left: 39px;
+    font-weight: 600;
+    color: #5a5444;
+}
+
+article ul li::before {
+    content: '';
+    position: absolute;
+    background: url(Assets/Checkmark.svg);
+    width: 24px;
+    height: 24px;
+    top: 1px;
+    left: -38px;
+}
+
+#box {
+    padding: 17px;
+    text-align: center;
+    border: 1px solid #c0c0be;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+form #button {
+    color: #fff;
+}
+
+section img {
+    width: 500px;
+    height: 610px;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    padding: 45px 0;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    height: 25px;
+}
+
+#google {
+    height: 40px;
+}
+
+.escrow {
+    border: 1px solid none;
+    border-radius: 10px;
+    background: #f0eeeb;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+
+.escrow-aside-1{
+    display: flex;
+    flex-direction: column;
+    margin:90px 0 0 90px;
+    gap:18px;
+}
+
+.escrow-aside-1 h2{
+    font-size: 33px;
+    line-height: 40px;
+}
+
+.escrow p{
+    line-height: 24px;
+    color:#ada9a0;
+}
+
+.escrow a{
+    color: black;
+}
+
+.escrow img{
+    width:580px;
+    height:500px;
+    margin-top: -55px;
+}
+
+.text-editor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:60px;
+}
+
+.text-editor img{
+    width:650px;
+    height:400px;
+}
+
+.text-editor-demo{
+    display: flex;
+    flex-direction: column;
+    margin:0 -80px;
+    gap:12px;
+}
+
+.text-editor-demo h2{
+    font-size: 35px;
+}
+
+.text-editor-demo p{
+    font-size: 16.5px;
+    line-height:25px;
+}
+
+.text-editor-demo a{
+    color:black;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: black;
+    margin:0 -145px 0 -145px;
+    padding:90px 145px;
+}
+
+#text-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#nav-title{
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#text-section p{
+    color:#ada9a0;
+}
+
+.nav-section{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-title{
+    color:#fff;
+    font-weight: 400;
+}
+
+.links{
+    color:#ada9a0;
+}
+
+.nav-section a{
+    text-decoration: none;
+}
+
